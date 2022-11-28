@@ -1,0 +1,27 @@
+.Navigation{
+    grid-area: NAV;
+    padding: 1rem;
+    background-color:rgb(189, 186, 186);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Navigation-heading{
+    font-size: 2.5rem;
+    color:black;
+}
+
+.Navigation-nav-items{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: flex-start;
+}
+
+.Navigation-nav-items a{
+    margin-top: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}

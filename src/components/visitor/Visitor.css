@@ -1,0 +1,11 @@
+.Visitor {
+  padding: 1rem;
+  background-color: rgb(189, 186, 186);
+  width: 100%;
+  height: 100%;
+  grid-area: WSV;
+}
+
+.Visitor.Visitor-content {
+  font-size: 1.5rem;
+}

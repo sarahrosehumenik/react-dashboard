@@ -1,0 +1,22 @@
+.App {
+  padding: 5rem;
+  max-width: 800px;
+  height: 800px;
+  margin: 5rem auto;
+  background-color: gainsboro;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-areas:
+    "NAV NAV REV REV AVR AVR SMA SMA"
+    "NAV NAV REV REV AVR AVR SMA SMA"
+    "NAV NAV WSV WSV WSV WSV WSV WSV"
+    "NAV NAV WSV WSV WSV WSV WSV WSV"
+    "NAV NAV WSV WSV WSV WSV WSV WSV"
+    "NAV NAV WSV WSV WSV WSV WSV WSV"
+    "NAV NAV WSV WSV WSV WSV WSV WSV"
+    "NAV NAV WSV WSV WSV WSV WSV WSV";
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
